@@ -5,7 +5,7 @@ var serviceAccount = require("./private_key.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: process.env.databseurl
+  databaseURL: process.env.databaseurl
 });
 
 const database = admin.database();
