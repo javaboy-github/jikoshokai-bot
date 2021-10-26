@@ -1,0 +1,24 @@
+{
+  "name": "jikoshokai",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/javaboy-github/jikoshokai.git"
+  },
+  "author": "javaboy-github",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javaboy-github/jikoshokai/issues"
+  },
+  "homepage": "https://github.com/javaboy-github/jikoshokai#readme",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "firebase-admin": "^10.0.0"
+  }
+}
