@@ -9,8 +9,6 @@ admin.initializeApp({
 });
 
 const database = admin.database();
-const ref = database.ref('napoan-server');
-
 // discord
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 const token = process.env.token;
